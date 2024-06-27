@@ -45,7 +45,6 @@
     # Необходимо настроить файл .env в корне проекта с необходимыми переменными окружения из .env.sample
     yarn migrate:push
     yarn seed:up
-    yarn test
     yarn start:dev 
     # Требуется подождать 200 секунд, пока CRON заработает
 
